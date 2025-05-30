@@ -1,0 +1,46 @@
+title: Power BI Examples
+description: A collection of interesting Power BI examples with DAX and Power Query code
+baseurl: "/Power-BI-Examples"
+url: "https://joshlevent.github.io"
+
+# Build settings
+markdown: kramdown
+theme: just-the-docs
+plugins: []
+
+# Theme settings
+color_scheme: dark
+heading_anchors: true
+search_enabled: true
+enable_copy_code_button: true
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore
+  - "*.pbix.temp"
+  - "*.pbix.backup"
+
+# Collections
+collections:
+  examples:
+    output: true
+    permalink: /:collection/:path/
+
+just_the_docs:
+  collections:
+    examples:
+      name: Examples
+
+# Site settings
+locale: "en-US"
+
+# Author
+author:
+  name: Josh Levent
+  email: josh@joshlevent.com
+  url: https://joshlevent.com
+  github: joshlevent
