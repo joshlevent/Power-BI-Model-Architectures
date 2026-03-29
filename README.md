@@ -1,7 +1,7 @@
-# Power BI Examples
+# Power BI Model Architectures
 
-A collection of interesting Power BI examples with DAX and Power Query code.
+A collection of model architectures for Power BI.
 
 ## Website
 
-Visit the full website with all examples: [https://joshlevent.github.io/Power-BI-Examples/](https://joshlevent.github.io/Power-BI-Examples/)
+Visit the full website with all model architectures: [https://power-bi-architectures.joshlevent.com/](https://power-bi-architectures.joshlevent.com/)

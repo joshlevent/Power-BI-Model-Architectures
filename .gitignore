@@ -16,6 +16,17 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+CLAUDE.md
 
 # Logs
 *.log
+
+# Jekyll build output
+_site/
+
+# Ruby/Bundler
+vendor/
+.bundle/
+
+# Large original architecture diagrams (keep optimized PNGs only)
+*_original.png

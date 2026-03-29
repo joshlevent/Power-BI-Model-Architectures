@@ -1,7 +1,7 @@
-title: Power BI Examples
-description: A collection of interesting Power BI examples with DAX and Power Query code
-baseurl: "/Power-BI-Examples"
-url: "https://joshlevent.github.io"
+title: Power BI Model Architectures
+description: A collection of model architectures for Power BI
+baseurl: ""
+url: "https://power-bi-architectures.joshlevent.com"
 
 # Build settings
 markdown: kramdown
@@ -23,17 +23,19 @@ exclude:
   - .gitignore
   - "*.pbix.temp"
   - "*.pbix.backup"
+  - CLAUDE.md
+  - LICENSE
 
 # Collections
 collections:
-  examples:
+  architectures:
     output: true
     permalink: /:collection/:path/
 
 just_the_docs:
   collections:
-    examples:
-      name: Examples
+    architectures:
+      name: Architectures
 
 # Site settings
 locale: "en-US"
